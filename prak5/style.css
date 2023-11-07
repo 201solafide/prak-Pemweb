@@ -1,0 +1,63 @@
+.container{
+    width: 500px;
+    height: 500px;
+
+    border: 1px solid red;
+    
+    margin: 0 auto;
+    /* background-color: black; */
+    padding: 10px;
+    margin: 2px solid red;
+
+    background-image:  url(./gambar.jpg);
+    background-size: cover;
+    
+}
+
+.container .showHasil {
+    width: 500px;
+    height: 100px;
+    border: 1px solid rgba(186, 226, 43, 0.815);
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+
+    overflow: hidden;
+}
+
+#Hasil {
+    font-family: 'lucida sans unicode';
+    font-size: 50px;
+
+}
+
+.container .Number{
+    width: auto;
+    height: 280px;
+    /* border: 1px solid blue; */
+    background-color: rgba(248, 247, 242, 0.76);
+    position: relative;
+    top: 90px;
+
+    border-radius: 30px;
+}
+
+.Number .num{
+    width: 118px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20%;
+    margin: 3px;
+    
+
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+
+    float: left;
+
+}
+
+.Number .num:last-child {
+    background-color: rgba(0, 0, 255, 0.527);
+}
